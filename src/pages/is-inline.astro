@@ -8,13 +8,15 @@ import { Icon } from 'astro-icon/components'
     <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
-    <title>astro-icon sprite test</title>
+    <title>use is:inline | astro-icon sprite test</title>
   </head>
   <body>
+    <h1><code>is:inline</code></h1>
+
     <h2><code>viewBox="0 0 128 128"</code></h2>
-    <Icon name='astro' size={100} />
+    <Icon name='astro' is:inline size={100} />
 
     <h2><code>viewBox="22.18 6.48 83.44 118.99"</code></h2>
-    <Icon name='astro-cropped' size={100} />
+    <Icon name='astro-cropped' is:inline size={100} />
   </body>
 </html>
