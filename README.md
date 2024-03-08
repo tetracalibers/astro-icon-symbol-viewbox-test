@@ -3,7 +3,7 @@
 ```json
 {
   "dependencies": {
-    "astro": "^4.4.12",
+    "astro": "^4.4.14",
     "astro-icon": "^1.1.0",
   }
 }
