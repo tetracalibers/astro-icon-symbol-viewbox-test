@@ -31,8 +31,8 @@ Removing the `viewBox` from `svg` elements and assigning it to the `symbol` elem
 
 - **Inline Icon Component**: Adding `is:inline` to the Icon component.
   - [demo: sample site](https://tetracalibers.github.io/astro-icon-symbol-viewbox-test/is-inline)
-  - [demo: source code](https://tetracalibers.github.io/astro-icon-symbol-viewbox-test/is-inline/src/pages/is-inline.astro)
+  - [demo: source code](https://github.com/tetracalibers/astro-icon-symbol-viewbox-test/blob/main/src/pages/is-inline.astro)
 
 - **CSS Fix**: Adding `overflow: visible` to the symbol tag. 
   - [demo: sample site](https://tetracalibers.github.io/astro-icon-symbol-viewbox-test/symbol-overflow-visible)
-  - [demo: source code](https://tetracalibers.github.io/astro-icon-symbol-viewbox-test/is-inline/src/pages/symbol-overflow-visible.astro)
+  - [demo: source code](https://github.com/tetracalibers/astro-icon-symbol-viewbox-test/blob/main/src/pages/symbol-overflow-visible.astro)
